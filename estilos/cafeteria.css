@@ -3,11 +3,15 @@
     padding: 0%;
 }
 body{
-    background-color: rgb(160, 158, 158);
+    background-color: rgb(235, 231, 222);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 header{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-image: url(../img-cafeteria/header_inicio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,12 +32,12 @@ header::before{
 }
 .menu{
     width: 100%;
-    height: 30vh;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
     position: relative;
     align-items: center;
+    text-decoration: none;
 }
 .inicio1{
     text-decoration: none;
@@ -46,19 +50,22 @@ a{
     font-size: 20px;
     color: rgb(255, 255, 255);
     margin-right: 20px;
+    font-weight: bold;
 }
 a:hover{
-    color: black;
-    text-decoration: underline;
+    color: rgb(212, 110, 0);
+    
 }
 .barra{
     width: 80%;
-    height: 20vh;
+    height: 30vh;
     display: flex;
  
 }
 .img1{
     position: relative;
+    width: 11%;
+    height: 90%;
 }
 .cuerpo{
     position: relative;
@@ -66,5 +73,752 @@ a:hover{
     justify-content: center;
     align-items: center;
     display: flex;
+    height: 70vh;
+    width: 100%;
+}
+.cuadro-blanco{
+    width: 60%;
+    background-color: aliceblue;
+    height: 180vh;
+    position: relative;
+    margin-top: -10rem;
+}
+.txt1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+    font-size: 20px;
+    align-items: center;
+    height: 5vh;
+}
+.txt2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(88, 63, 31);
+    align-items: center;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parr1{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+.p1{
+    width: 80%;
+    text-align: justify;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.letras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(88, 63, 31);
+    
+}
+.barra2{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.barra3{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txt3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+    font-size: 20px;
+    align-items: center;
+    height: 5vh;
+}
+.txt4{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(88, 63, 31);
+    align-items: center;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.collage{
+    height: 100vh;
+    width: 70%;
+}
+.section2{
+    background-color: rgb(94, 49, 30);
+    width: 100%;
+    height: 100vh;
+}
+.barra4{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: -15vh;
+}
+.txt5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    align-items: center;
+    height: 5vh;
+}
+.txt6{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+.img-arriba{
+    width: 100%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
    
+}
+.general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+.img-1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.div-general{
+    height: 60vh;
+    justify-content: center;
+    gap: 20rem;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+   
+.div-cafe{
+    width:  20%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+.div-titulo-1{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+    height: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.t1{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.t2{
+    color: rgb(176, 114, 47);
+    font-size: 25px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-content{
+    display: flex;
+    width: 140%;
+    justify-content: space-between;
+    height: 8vh;
+} 
+.texto2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.texto1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.img-abajo{
+    width: 100%;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.cuadro-blanco-2{
+    width: 60%;
+    background-color: aliceblue;
+    height: 80vh;
+    position: relative;
+    margin-top: -10rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.gris{
+    width: 50%;
+    height: 20vh;
+    color: black;
+    background-color: rgb(228, 225, 207);
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    display: flex;
+    padding: 4% 4% 8%;
+    flex-direction: column;
+    gap: 2rem;
+}
+.parrafo{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    gap: 10rem;
+}
+.div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.parrafo2{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(88, 63, 31);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.texto{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 30vh;
+    font-size: 18px;
+    background-color: aliceblue;
+    margin-top: -7rem;
+}
+.ubi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.res{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.hor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.a1{
+    color: chocolate;
+    font-size: 30px;
+}
+.a2{
+    color: chocolate;
+    font-size: 30px;
+}
+.a3{
+    color: chocolate;
+    font-size: 30px;
+}
+.pie{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(94, 49, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parrafo3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width:320px) or (max-height:480px){
+    body{
+        background-color: rgb(235, 231, 222);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img-cafeteria/header_inicio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header::before{
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        right: 0%;
+        left: 0%;
+        opacity: 0.7;
+    }
+    .menu{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1px;
+        position: relative;
+        align-items: center;
+        text-decoration: none;
+    }
+    .inicio1{
+        text-decoration: none;
+        font-size: 6px;
+        color: rgb(255, 152, 8);
+        margin-right: 5px; 
+    }
+    a{
+        text-decoration: none;
+        font-size: 6px;
+        color: rgb(255, 255, 255);
+        margin-right: 5px;
+        font-weight: bold;
+    }
+    a:hover{
+        color: rgb(212, 110, 0);
+        
+    }
+    .barra{
+        width: 80%;
+        height: 20vh;
+        display: flex;
+     
+    }
+    .img1{
+        position: relative;
+        width: 20%;
+        height: 90%;
+    }
+    .cuerpo{
+        position: relative;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 70vh;
+        width: 100%;
+        font-size: 1vh;
+    }
+    .cuadro-blanco{
+        width: 60%;
+        background-color: aliceblue;
+        height: 180vh;
+        position: relative;
+        margin-top: -10rem;
+    }
+    .txt1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: chocolate;
+        font-size: 20px;
+        align-items: center;
+        height: 5vh;
+    }
+    .txt2{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: rgb(88, 63, 31);
+        align-items: center;
+    }
+    .div2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parr1{
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 10vh;
+    }
+    .p1{
+        width: 80%;
+        text-align: justify;
+    }
+    
+    .imagenes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .letras{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(88, 63, 31);
+        
+    }
+    .barra2{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .barra3{
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .txt3{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: chocolate;
+        font-size: 20px;
+        align-items: center;
+        height: 5vh;
+    }
+    .txt4{ 
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: rgb(88, 63, 31);
+        align-items: center;
+    }
+    .div3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img3{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .collage{
+        height: 100vh;
+        width: 70%;
+    }
+    .section2{
+        background-color: rgb(94, 49, 30);
+        width: 100%;
+        height: 100vh;
+    }
+    .barra4{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        margin-top: -15vh;
+    }
+    .txt5{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        align-items: center;
+        height: 5vh;
+    }
+    .txt6{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        align-items: center;
+    }
+    .img-arriba{
+        width: 100%;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .general{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+    .img-1{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .div-general{
+        height: 60vh;
+        justify-content: center;
+        gap: 20rem;
+        align-items: center;
+        display: flex;
+        position: relative;
+    }
+       
+    .div-cafe{
+        width:  20%;
+        height: 50vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .div-titulo-1{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        color: white;
+        height: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    .t1{
+        color: white;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+    .t2{
+        color: rgb(176, 114, 47);
+        font-size: 25px;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .texto-content{
+        display: flex;
+        width: 140%;
+        justify-content: space-between;
+        height: 8vh;
+    } 
+    .texto2{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .texto1{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .img-abajo{
+        width: 100%;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .img-2{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        
+    }
+    .cuadro-blanco-2{
+        width: 60%;
+        background-color: aliceblue;
+        height: 80vh;
+        position: relative;
+        margin-top: -10rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .gris{
+        width: 50%;
+        height: 20vh;
+        color: black;
+        background-color: rgb(228, 225, 207);
+        justify-content: center;
+        align-content: center;
+        border-radius: 1rem;
+        display: flex;
+        padding: 4% 4% 8%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .parrafo{
+        display: flex;
+        width: 100%;
+        height: 80vh;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        gap: 10rem;
+    }
+    .div4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
+    .parrafo2{
+        display: flex;
+        justify-content: flex-end;
+        color: rgb(88, 63, 31);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        
+    }
+    .texto{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        height: 30vh;
+        font-size: 18px;
+        background-color: aliceblue;
+        margin-top: -7rem;
+    }
+    .ubi{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .res{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .hor{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .a1{
+        color: chocolate;
+        font-size: 30px;
+    }
+    .a2{
+        color: chocolate;
+        font-size: 30px;
+    }
+    .a3{
+        color: chocolate;
+        font-size: 30px;
+    }
+    .pie{
+        width: 100%;
+        height: 30vh;
+        background-color: rgb(94, 49, 30);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .parrafo3{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
 }
