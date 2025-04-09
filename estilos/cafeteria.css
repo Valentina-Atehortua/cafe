@@ -452,13 +452,11 @@ a:hover{
         text-decoration: none;
         font-size: 6px;
         color: rgb(255, 152, 8);
-        margin-right: 5px; 
     }
     a{
         text-decoration: none;
         font-size: 6px;
         color: rgb(255, 255, 255);
-        margin-right: 5px;
         font-weight: bold;
     }
     a:hover{
@@ -487,9 +485,9 @@ a:hover{
         font-size: 1vh;
     }
     .cuadro-blanco{
-        width: 60%;
+        width: 80%;
         background-color: aliceblue;
-        height: 180vh;
+        height: 150vh;
         position: relative;
         margin-top: -10rem;
     }
@@ -499,7 +497,7 @@ a:hover{
         width: 100%;
         font-family: Arial, Helvetica, sans-serif;
         color: chocolate;
-        font-size: 20px;
+        font-size: 15px;
         align-items: center;
         height: 5vh;
     }
@@ -508,7 +506,7 @@ a:hover{
         justify-content: center;
         width: 100%;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
+        font-size: 10px;
         color: rgb(88, 63, 31);
         align-items: center;
     }
@@ -522,10 +520,11 @@ a:hover{
         width: 100%;
         display: flex;
         justify-content: center;
-        height: 10vh;
+        height: 15vh;
     }
     .p1{
-        width: 80%;
+        width: 60%;
+        height: 0vh;
         text-align: justify;
     }
     
@@ -533,17 +532,36 @@ a:hover{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        width: 100%;
+    }
+    .ca{
+        height: 10vh;
+    }
+    .cr{
+        height: 10vh;
+    }
+    .te{
+        height: 10vh;
     }
     .letras{
         display: flex;
         justify-content: space-around;
         align-items: center;
         color: rgb(88, 63, 31);
-        
+        font-size: 10px;
+    }
+    .cf{
+        height: 10vh;
+    }
+    .po{
+        height: 10vh;
+    }
+    .t{
+        height: 10vh;
     }
     .barra2{
         width: 100%;
-        height: 10vh;
+        height: vh;
         display: flex;
         justify-content: center;
         align-items: center;
